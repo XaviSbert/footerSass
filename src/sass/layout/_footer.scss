@@ -15,90 +15,88 @@
 
 // Margenes, espacio
 
-.mapa{
-    &__contenido{
-        padding: 1rem;
-    }
+.mapa {
+  &__contenido {
+    padding: 1rem;
+  }
 }
 
-.idiomas{
-    &__contenido{
-        padding: 1rem;
-    }
+.idiomas {
+  &__contenido {
+    padding: 1rem;
+  }
 }
-
 
 // Centra los sections
-.centrar{
-    max-width: $anchoMax;
-    margin: 0 auto;
+.centrar {
+  max-width: $anchoMax;
+  margin: 0 auto;
 }
 
 // Section final
 .terminosSocial{
-    &__contenido{
-        padding: 1rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0;
-    }
+  &__contenido {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 // Terminos, polítcas y seguridad
-.politicas{
-    column-count: 3;
-    column-rule: 2px solid #7075a2;
-    *{
-        display: block;
-    }
+.politicas {
+  column-count: 3;
+  column-rule: 2px solid #7075a2;
+  * {
+    display: block;
+  }
 }
 
 // links
-a{
-    text-decoration: none;
-    color: #7075a2;
-    img{
-        width: 32px;
-        color: #525679;
-    }
+a {
+  text-decoration: none;
+  color: #7075a2;
+  img {
+    width: 32px;
+    color: #525679;
+  }
 }
 
 //Parte central del footer
 
-.idiomas__contenido{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: $colorParrafo;
+.idiomas__contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $colorParrafo;
 
-    article{
-        display: flex;
-        
-        img{
-            padding-right: 0.5rem;
-            width: 60px;
-        }
+  article {
+    display: flex;
+
+    img {
+      padding-right: 0.5rem;
+      width: 60px;
     }
-    
-    select{
-            width: 150px;
-            height: 50px;
-            padding: 0;
-    }
+  }
+
+  select {
+    width: 150px;
+    height: 50px;
+    padding: 0;
+  }
 }
 
 // Sección de mapa web
 
-.mapa__contenido{
-    display: flex;
-    justify-content: space-between;
+.mapa__contenido {
+  display: flex;
+  justify-content: space-between;
 
-    h3{
-        color: #222a59;
-    }
+  h3 {
+    color: #222a59;
+  }
 
-    p{
-        color: $colorParrafo;
-    }
+  p {
+    color: $colorParrafo;
+  }
 }
